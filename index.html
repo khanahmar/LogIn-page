@@ -14,26 +14,36 @@
   </head>
   <body>
     <form id="form" class="form">
-      <div class="mb-4">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <div class="mb-2 mt-2">
+        <label for="user-pass" class="form-label">Email address</label>
         <input
           type="email"
           class="form-control"
-          id="exampleInputEmail1"
+          id="user-email"
           aria-describedby="emailHelp"
         />
+        <div id="data"></div>
       </div>
-      <div id="data"></div>
-      <div class="mb-4">
-        <label for="user-email" class="form-label">Password</label>
-        <input type="password" class="form-control" id="user-email" />
+
+      <div class="mb-2 mt-4">
+        <label for="user-pass" class="form-label">Password</label>
+        <input type="password" class="form-control" id="user-pass" />
+        <div id="data1"></div>
       </div>
-      <div class="mb-4 form-check">
-        <input type="checkbox" class="form-check-input" id="user-pass" />
-        <label class="form-check-label" for="user-pass">Check me out</label>
+
+      <div class="mb-2 mt-5 form-check">
+        <input
+          style="margin-right: 20px"
+          type="checkbox"
+          class="form-check-input"
+          id="check-box"
+        />
+        <label class="form-check-label" for="check-box">Check me out</label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+
+      <button type="submit" class="btn btn-primary pt-2 pb-2">Submit</button>
     </form>
+    <div style="margin-top: 20px" id="form-data"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

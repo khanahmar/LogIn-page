@@ -3,3 +3,23 @@
   letter-spacing: 1px;
   transition: 0.3s;
 }
+
+.checked-email {
+  border: 1px solid red;
+}
+
+.checked-pass {
+  border: 1px solid red;
+}
+
+.form-data {
+  color: rgb(59, 59, 216);
+  font-size: 20px;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.not-checked {
+  border-color: red;
+  transition: 0.4s;
+}
